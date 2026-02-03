@@ -31,11 +31,35 @@
       margin: 40px 0;
     }
 
-    a {
-      color: #f2a7d5;
-      text-decoration: none;
-      font-weight: 500;
-    }
+		a {
+  		color: #f2a7d5;
+  		text-decoration: none;
+  		font-weight: 500;
+  		position: relative;
+  		transition: color 0.25s ease, transform 0.25s ease;
+		}
+
+		a::after {
+		  content: "";
+		  position: absolute;
+		  left: 0;
+		  bottom: -4px;
+		  width: 100%;
+		  height: 2px;
+		  background: #f2a7d5;
+		  transform: scaleX(0);
+		  transform-origin: left;
+		  transition: transform 0.25s ease;
+		}
+
+		a:hover {
+		  color: #cdf0ea;
+		  transform: translateY(-1px);
+		}
+		
+		a:hover::after {
+		  transform: scaleX(1);
+		}
 
     .links {
       margin-top: 48px;
@@ -46,10 +70,62 @@
       align-items: center;
     }
 
+		.link-item {
+		  color: #f2a7d5;
+		  font-weight: 500;
+		  position: relative;
+		  transition: color 0.25s ease, transform 0.25s ease;
+		}
+
+		.link-item::after {
+		  content: "";
+		  position: absolute;
+		  left: 0;
+		  bottom: -4px;
+		  width: 100%;
+		  height: 2px;
+		  background: #f2a7d5;
+		  transform: scaleX(0);
+		  transform-origin: left;
+		  transition: transform 0.25s ease;
+		}
+		
+		.link-item:hover {
+		  color: #cdf0ea;
+		  transform: translateY(-1px);
+		}
+		
+		.link-item:hover::after {
+		  transform: scaleX(1);
+		}
+		
     .links img {
       margin: 0;
       width: 80px;
     }
+		.business-cat {
+		  width: 80px;
+		  transition: transform 0.3s ease, filter 0.3s ease;
+		}
+		
+		@media (hover: hover) and (pointer: fine) {
+
+  /* Link hover (desktop only) */
+	  .link-item:hover {
+	    color: #cdf0ea;
+	    transform: translateY(-1px);
+	  }
+	
+	  .link-item:hover::after {
+	    transform: scaleX(1);
+	  }
+	
+	  /* Business cat special hover 😼 */
+	  .business-cat:hover {
+	    transform: translateY(-6px) rotate(-3deg) scale(1.05);
+	    filter: drop-shadow(0 10px 25px rgba(242, 167, 213, 0.45));
+	  }
+	}
   </style>
 </head>
 
@@ -82,11 +158,12 @@
 
     <!-- Links + business cat -->
     <div class="links">
-      <a href="https://www.linkedin.com/in/ariadna-villagra/" target="_blank">
+      <a class="link-item" href="https://www.linkedin.com/in/ariadna-villagra/" target="_blank">
         LinkedIn
       </a>
 
       <a
+				class="link-item"
         href="https://github.com/AriadnaVillagra/AriadnaVillagra/blob/main/assets/Curr%C3%ADculum%20Ariadna%20Villagra%20%28EN%29.pdf"
         target="_blank"
       >
@@ -94,6 +171,7 @@
       </a>
 
       <img
+				class="business-cat"
         src="./assets/busines-cat.gif"
         alt="Business cat approves"
         title="yes, this is professional"
