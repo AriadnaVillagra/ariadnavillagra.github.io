@@ -1,0 +1,63 @@
+<svg width="700" height="380" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Window background -->
+  <rect x="0" y="0" width="700" height="380" fill="#E5E7EB"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="700" height="32" fill="#F2A7D5"/>
+  <text
+    x="12"
+    y="21"
+    font-family="monospace"
+    font-size="13"
+    fill="#1F2937"
+  >
+    C:\dummyproject\app\features\whatever
+  </text>
+
+  <!-- Window buttons -->
+  <rect x="652" y="10" width="10" height="10" fill="#FAF4B7"/>
+  <rect x="636" y="10" width="10" height="10" fill="#CDF0EA"/>
+  <rect x="620" y="10" width="10" height="10" fill="#F6C6EA"/>
+
+  <!-- Content area -->
+  <rect x="12" y="44" width="676" height="292" fill="#F9F9F9"/>
+
+  <!-- Folder list -->
+  <text x="32" y="76" font-family="monospace" font-size="14" fill="#111827">
+    📁 presentation
+  </text>
+  <text x="52" y="96" font-family="monospace" font-size="12" fill="#6B7280">
+    UI, ViewModels, navigation
+  </text>
+
+  <text x="32" y="128" font-family="monospace" font-size="14" fill="#111827">
+    📁 application
+  </text>
+  <text x="52" y="148" font-family="monospace" font-size="12" fill="#6B7280">
+    use cases, application services
+  </text>
+
+  <text x="32" y="180" font-family="monospace" font-size="14" fill="#111827">
+    📁 domain
+  </text>
+  <text x="52" y="200" font-family="monospace" font-size="12" fill="#6B7280">
+    entities, repository interfaces
+  </text>
+
+  <text x="32" y="232" font-family="monospace" font-size="14" fill="#111827">
+    📁 data
+  </text>
+  <text x="52" y="252" font-family="monospace" font-size="12" fill="#6B7280">
+    datasources, models, mappers, repository implementations
+  </text>
+
+  <!-- Footer (Daria style) -->
+  <text x="32" y="300" font-family="monospace" font-size="12" fill="#6B7280">
+    This is one architecture I like.
+  </text>
+  <text x="32" y="320" font-family="monospace" font-size="12" fill="#6B7280">
+    It won’t end global warming. I’m still learning.
+  </text>
+
+</svg>

@@ -1,0 +1,86 @@
+<svg width="520" height="190" viewBox="0 0 520 190" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer window -->
+  <rect x="0" y="0" width="520" height="190" rx="4" fill="#FAF4B7"/>
+
+  <!-- Window border -->
+  <rect x="4" y="4" width="512" height="182" rx="3" fill="#F9F9F9"/>
+
+  <!-- Title bar -->
+  <rect x="4" y="4" width="512" height="28" fill="#F2A7D5"/>
+
+  <!-- Title bar text -->
+  <text
+    x="14"
+    y="22"
+    font-family="monospace"
+    font-size="13"
+    fill="#1F2937"
+  >
+    System Error
+  </text>
+
+  <!-- Fake buttons -->
+  <rect x="486" y="10" width="10" height="10" fill="#FDECEC"/>
+  <rect x="470" y="10" width="10" height="10" fill="#CDF0EA"/>
+
+  <!-- Content area -->
+  <rect x="14" y="40" width="492" height="132" fill="#FFF7F7"/>
+
+  <!-- Error title -->
+  <text
+    x="28"
+    y="70"
+    font-family="monospace"
+    font-size="16"
+    font-weight="700"
+    fill="#E2557A"
+  >
+    503 SERVICE_UNAVAILABLE
+  </text>
+
+  <!-- Subtitle -->
+  <text
+    x="28"
+    y="94"
+    font-family="monospace"
+    font-size="14"
+    fill="#E8A4B8"
+  >
+    DEPLOYMENT_PAUSED
+  </text>
+
+  <!-- Message -->
+  <text
+    x="28"
+    y="124"
+    font-family="monospace"
+    font-size="13"
+    fill="#374151"
+  >
+    Upstream service outage.
+  </text>
+
+  <text
+    x="28"
+    y="146"
+    font-family="monospace"
+    font-size="13"
+    font-weight="600"
+    fill="#1F2937"
+  >
+    This README is innocent.
+  </text>
+
+  <text
+    x="28"
+    y="166"
+    font-family="monospace"
+    font-size="12"
+    fill="#6B7280"
+  >
+    Enjoy this Daria image instead.
+  </text>
+
+</svg>
+
