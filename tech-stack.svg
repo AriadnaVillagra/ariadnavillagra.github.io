@@ -1,0 +1,134 @@
+<svg width="700" height="480" viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Master loop (60s) -->
+  <animate id="loop" attributeName="opacity" from="1" to="1" dur="60s" repeatCount="indefinite"/>
+
+  <!-- Background -->
+  <rect width="700" height="480" fill="#111827"/>
+
+  <!-- Title bar -->
+  <rect width="700" height="28" fill="#F2A7D5"/>
+  <text x="12" y="19" font-family="monospace" font-size="12" fill="#1F2937">
+    MINGW64:/c/Users/ariad/Desktop (works on my machine)
+  </text>
+
+  <!-- Terminal content -->
+  <text x="16" y="56" font-family="monospace" font-size="14" fill="#E5E7EB">
+
+    <!-- Prompt -->
+    <tspan x="16" dy="0" opacity="0">
+      ariad@MAKTUB MINGW64 ~/Desktop
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+0s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="16" dy="18" opacity="0">
+      $ stack --languages
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+0.4s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <!-- Languages -->
+    <tspan x="32" dy="20" fill="#CDF0EA" opacity="0">
+      TypeScript / JavaScript
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+0.9s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#CDF0EA" opacity="0">
+      Dart
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+1.2s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#CDF0EA" opacity="0">
+      Java (occasionally)
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+1.5s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#CDF0EA" opacity="0">
+      Python (when needed)
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+1.8s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <!-- Joke -->
+    <tspan x="32" dy="18" fill="#9CA3AF" opacity="0">
+      Some language I’ve never used before
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+2.1s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <!-- Frontend -->
+    <tspan x="16" dy="26" opacity="0">
+      $ stack --frontend
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+2.7s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="20" fill="#F2A7D5" opacity="0">
+      React / Next.js
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+3.2s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#F2A7D5" opacity="0">
+      React Native
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+3.5s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#F2A7D5" opacity="0">
+      Flutter
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+3.8s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#F2A7D5" opacity="0">
+      Redux Toolkit, Zustand, TanStack Query
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+4.1s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <!-- Backend -->
+    <tspan x="16" dy="26" opacity="0">
+      $ stack --backend
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+4.7s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="20" fill="#9CA3AF" opacity="0">
+      Node.js / Express
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+5.2s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="32" dy="18" fill="#9CA3AF" opacity="0">
+      MongoDB, REST APIs, AWS Cognito
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+5.5s" dur="0.2s" fill="freeze"/>
+    </tspan>
+
+    <!-- Philosophy -->
+    <tspan x="16" dy="30" fill="#CDF0EA" opacity="0">
+      It’s not the language.
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+6.2s" dur="0.3s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="16" dy="20" fill="#CDF0EA" opacity="0">
+      It’s understanding the system.
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+6.8s" dur="0.3s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="16" dy="20" fill="#FAF4B7" opacity="0">
+      The rest is syntax.
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+7.4s" dur="0.3s" fill="freeze"/>
+    </tspan>
+
+    <!-- Final identity -->
+    <tspan x="16" dy="26" fill="#FAF4B7" opacity="0">
+      Frontend-first by choice, not by limitation.
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+8.2s" dur="0.3s" fill="freeze"/>
+    </tspan>
+
+    <tspan x="16" dy="20" fill="#FAF4B7" opacity="0">
+      Frontend is harder — that’s why I’m there.
+      <animate attributeName="opacity" from="0" to="1" begin="loop.begin+8.8s" dur="0.3s" fill="freeze"/>
+    </tspan>
+
+    <!-- Cursor -->
+    <tspan x="16" dy="22" fill="#F2A7D5">
+      ▊
+      <animate attributeName="opacity" from="1" to="0" begin="loop.begin+9.6s" dur="0.6s" repeatCount="indefinite"/>
+    </tspan>
+
+  </text>
+
+</svg>
+
