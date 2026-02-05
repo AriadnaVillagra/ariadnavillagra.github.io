@@ -80,7 +80,7 @@
   </text>
 
   <!-- Status -->
-  <text x="260" y="650" font-family="monospace" font-size="12" fill="#10B981">
+  <text x="260" y="645" font-family="monospace" font-size="12" fill="#10B981">
     200 OK
   </text>
 
