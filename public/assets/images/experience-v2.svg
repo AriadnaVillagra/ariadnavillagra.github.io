@@ -56,7 +56,7 @@
     <tspan x="36" dy="20" fill="#CDF0EA">"staff_platform"</tspan>
     <tspan fill="#E5E7EB">:</tspan>
     <tspan fill="#FAF4B7">
-      { "client": "Banana Software", "role": "frontend", "type": "web responsive app" }
+      { "client": "Banana Software", "role": "frontend", "type": "web app" }
     </tspan><tspan>,</tspan>
 
     <tspan x="36" dy="20" fill="#CDF0EA">"integrations"</tspan>
