@@ -20,7 +20,7 @@
   </text>
 
   <!-- Response box -->
-  <rect x="12" y="96" width="336" height="560" fill="#0F172A" stroke="#374151"/>
+  <rect x="12" y="96" width="336" height="550" fill="#0F172A" stroke="#374151"/>
 
   <!-- Response content -->
   <text x="20" y="132" font-family="monospace" font-size="13" fill="#E5E7EB">
