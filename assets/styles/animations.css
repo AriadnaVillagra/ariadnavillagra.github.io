@@ -1,0 +1,49 @@
+/* Animation Styles */
+/* assets/styles/animations.css */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+    transition-delay: var(--delay, 0s);
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-final {
+    opacity: 0;
+    transform: scale(0.97);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+    transition-delay: 0.45s;
+}
+
+.reveal-final.is-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+
+    /* Business cat special hover 😼 */
+    .business-cat:hover {
+        transform: translateY(-6px) rotate(-3deg) scale(1.05);
+        filter: drop-shadow(0 10px 25px rgba(242, 167, 213, 0.45));
+    }
+}
+
+/* Accessibility: no motion if user asks for it */
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}

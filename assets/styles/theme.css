@@ -1,0 +1,11 @@
+/* Theme Styles */
+/* assets/styles/theme.css */
+
+body.light {
+    background: #faf4b7;
+    color: #1f2937;
+}
+
+body.light a {
+    color: #db2777;
+}
