@@ -1,10 +1,11 @@
-<defs>
-  <clipPath id="response-clip">
-    <rect x="12" y="96" width="336" height="540" />
-  </clipPath>
-</defs>
-
 <svg width="360" height="650" viewBox="0 0 360 650" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Definitions -->
+  <defs>
+    <clipPath id="response-clip">
+      <rect x="12" y="96" width="336" height="540" />
+    </clipPath>
+  </defs>
 
   <!-- Background -->
   <rect width="360" height="650" fill="#111827"/>
@@ -28,66 +29,63 @@
   <!-- Response box -->
   <rect x="12" y="96" width="336" height="540" fill="#0F172A" stroke="#374151"/>
 
-  <!-- Response content -->
-<g clip-path="url(#response-clip)">
-  <text x="20" y="132" font-family="monospace" font-size="13" fill="#E5E7EB">
+  <!-- Response content (clipped) -->
+  <g clip-path="url(#response-clip)">
+    <text x="20" y="132" font-family="monospace" font-size="13" fill="#E5E7EB">
 
-    <tspan x="20" dy="0">{</tspan>
+      <tspan x="20" dy="0">{</tspan>
 
-    <!-- status -->
-    <tspan x="36" dy="20" fill="#CDF0EA">"status"</tspan>
-    <tspan fill="#E5E7EB">:</tspan>
-    <tspan fill="#FAF4B7"> 200</tspan><tspan>,</tspan>
+      <tspan x="36" dy="20" fill="#CDF0EA">"status"</tspan>
+      <tspan fill="#E5E7EB">:</tspan>
+      <tspan fill="#FAF4B7"> 200</tspan><tspan>,</tspan>
 
-    <!-- petly -->
-    <tspan x="36" dy="20" fill="#CDF0EA">"petly"</tspan>
-    <tspan fill="#E5E7EB">:</tspan>
-    <tspan x="52" dy="20" fill="#FAF4B7">{</tspan>
+      <tspan x="36" dy="20" fill="#CDF0EA">"petly"</tspan>
+      <tspan fill="#E5E7EB">:</tspan>
+      <tspan x="52" dy="20" fill="#FAF4B7">{</tspan>
 
-    <tspan x="68" dy="18" fill="#FAF4B7">"role": "frontend + backend",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"type": "mobile app"</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"role": "frontend + backend",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"type": "mobile app"</tspan>
 
-    <tspan x="52" dy="18" fill="#FAF4B7">}</tspan><tspan>,</tspan>
+      <tspan x="52" dy="18" fill="#FAF4B7">}</tspan><tspan>,</tspan>
 
-    <!-- pharma -->
-    <tspan x="36" dy="22" fill="#CDF0EA">"pharma_sales_app"</tspan>
-    <tspan fill="#E5E7EB">:</tspan>
-    <tspan x="52" dy="20" fill="#FAF4B7">{</tspan>
+      <tspan x="36" dy="22" fill="#CDF0EA">"pharma_sales_app"</tspan>
+      <tspan fill="#E5E7EB">:</tspan>
+      <tspan x="52" dy="20" fill="#FAF4B7">{</tspan>
 
-    <tspan x="68" dy="18" fill="#FAF4B7">"client": "Bagó",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"role": "frontend",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"type": "mobile / web"</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"client": "Bagó",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"role": "frontend",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"type": "mobile / web"</tspan>
 
-    <tspan x="52" dy="18" fill="#FAF4B7">}</tspan><tspan>,</tspan>
+      <tspan x="52" dy="18" fill="#FAF4B7">}</tspan><tspan>,</tspan>
 
-    <!-- integrations -->
-    <tspan x="36" dy="22" fill="#CDF0EA">"integrations"</tspan>
-    <tspan fill="#E5E7EB">:</tspan>
-    <tspan x="52" dy="20" fill="#FAF4B7">[</tspan>
+      <tspan x="36" dy="22" fill="#CDF0EA">"integrations"</tspan>
+      <tspan fill="#E5E7EB">:</tspan>
+      <tspan x="52" dy="20" fill="#FAF4B7">[</tspan>
 
-    <tspan x="68" dy="18" fill="#FAF4B7">"Google Calendar",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"Gmail API",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"AWS services",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"GCP"</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"Google Calendar",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"Gmail API",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"AWS services",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"GCP"</tspan>
 
-    <tspan x="52" dy="18" fill="#FAF4B7">]</tspan><tspan>,</tspan>
+      <tspan x="52" dy="18" fill="#FAF4B7">]</tspan><tspan>,</tspan>
 
-    <!-- distribution -->
-    <tspan x="36" dy="22" fill="#CDF0EA">"distribution"</tspan>
-    <tspan fill="#E5E7EB">:</tspan>
-    <tspan x="52" dy="20" fill="#FAF4B7">[</tspan>
+      <tspan x="36" dy="22" fill="#CDF0EA">"distribution"</tspan>
+      <tspan fill="#E5E7EB">:</tspan>
+      <tspan x="52" dy="20" fill="#FAF4B7">[</tspan>
 
-    <tspan x="68" dy="18" fill="#FAF4B7">"Google Play Console",</tspan>
-    <tspan x="68" dy="18" fill="#FAF4B7">"Apple App Store"</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"Google Play Console",</tspan>
+      <tspan x="68" dy="18" fill="#FAF4B7">"Apple App Store"</tspan>
 
-    <tspan x="52" dy="18" fill="#FAF4B7">]</tspan>
+      <tspan x="52" dy="18" fill="#FAF4B7">]</tspan>
 
-    <tspan x="20" dy="24">}</tspan>
+      <tspan x="20" dy="24">}</tspan>
 
-  </text>
+    </text>
+  </g>
 
   <!-- Status -->
-  <text x="260" y="645" font-family="monospace" font-size="12" fill="#10B981">
+  <rect x="238" y="622" width="92" height="22" rx="4" fill="#064E3B"/>
+  <text x="248" y="638" font-family="monospace" font-size="12" fill="#10B981">
     200 OK
   </text>
 
