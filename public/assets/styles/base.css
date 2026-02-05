@@ -168,6 +168,25 @@ a {
     }
 }
 
+/* Responsive SVG switching */
+.mobile-only {
+    display: block;
+}
+
+.desktop-only {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+}
+
 #theme-toggle:focus-visible {
     outline: 2px solid #f2a7d5;
     outline-offset: 4px;
