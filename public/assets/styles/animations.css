@@ -39,11 +39,23 @@
     }
 }
 
-/* Accessibility: no motion if user asks for it */
+/* Accessibility: respect reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
-    .reveal {
+
+    /* Disable reveal animations */
+    .reveal,
+    .reveal-final {
         opacity: 1;
         transform: none;
         transition: none;
+    }
+
+    /* Disable all other motion */
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
     }
 }

@@ -151,6 +151,15 @@ a {
     outline: none;
 }
 
+.debug-mode::after {
+    content: 'debug mode';
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    font-size: 11px;
+    opacity: 0.4;
+}
+
 #theme-toggle {
     background: none;
     border: none;
@@ -195,8 +204,23 @@ a {
 #cat-message {
     width: 100%;
     text-align: center;
+    opacity: 0;
+    transition: opacity 0.25s ease;
 }
 
 #cat-message.visible {
     opacity: 1;
+}
+
+#cat-message[data-tone="default"] {
+    color: #f2a7d5;
+}
+
+#cat-message[data-tone="meta"] {
+    color: #cdf0ea;
+}
+
+#cat-message[data-tone="warning"] {
+    color: #faf4b7;
+    letter-spacing: 0.03em;
 }

@@ -55,6 +55,20 @@ I’m fine with that.
 
 </details>
 
+⋯⋯⋯
+
+▸ Design notes (since nothing here is accidental)
+
+- Mobile is the default. Desktop is just a wider consequence.  
+- Every SVG was designed by me. Some exist twice — because scaling is not design.  
+- Layouts change by context, not by convenience.  
+- Animations exist to guide reading, not to entertain.  
+- External assets are handled at the source. CSS is not a magic fix.  
+- Readability beats cleverness. Always.
+
+If something feels minimal, it probably is.  
+If something feels deliberate, it definitely is.  
+If something looks “odd”, it was placed there on purpose.
 
 ⋯⋯⋯
 
