@@ -20,7 +20,7 @@
   </text>
 
   <!-- Response box -->
-  <rect x="12" y="96" width="336" height="540" fill="#0F172A" stroke="#374151"/>
+  <rect x="12" y="96" width="336" height="550" fill="#0F172A" stroke="#374151"/>
 
   <!-- Response content -->
   <text x="20" y="132" font-family="monospace" font-size="13" fill="#E5E7EB">
@@ -80,7 +80,7 @@
   </text>
 
   <!-- Status -->
-  <text x="260" y="600" font-family="monospace" font-size="12" fill="#10B981">
+  <text x="260" y="620" font-family="monospace" font-size="12" fill="#10B981">
     200 OK
   </text>
 
