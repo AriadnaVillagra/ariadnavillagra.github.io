@@ -1,0 +1,83 @@
+<svg width="360" height="520" viewBox="0 0 360 520" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Window background -->
+  <rect x="0" y="0" width="360" height="520" fill="#E5E7EB"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="360" height="36" fill="#F2A7D5"/>
+  <text
+    x="12"
+    y="24"
+    font-family="monospace"
+    font-size="14"
+    fill="#1F2937"
+  >
+    app / features
+  </text>
+
+  <!-- Window buttons -->
+  <rect x="320" y="12" width="10" height="10" fill="#FAF4B7"/>
+  <rect x="304" y="12" width="10" height="10" fill="#CDF0EA"/>
+  <rect x="288" y="12" width="10" height="10" fill="#F6C6EA"/>
+
+  <!-- Content area -->
+  <rect x="12" y="52" width="336" height="420" rx="6" fill="#F9F9F9"/>
+
+  <!-- Presentation -->
+  <text x="28" y="90" font-family="monospace" font-size="16" fill="#111827">
+    📁 presentation
+  </text>
+  <text x="28" y="112" font-family="monospace" font-size="13" fill="#6B7280">
+    UI · ViewModels · Navigation
+  </text>
+
+  <line x1="28" y1="132" x2="332" y2="132" stroke="#E5E7EB"/>
+
+  <!-- Application -->
+  <text x="28" y="168" font-family="monospace" font-size="16" fill="#111827">
+    📁 application
+  </text>
+  <text x="28" y="190" font-family="monospace" font-size="13" fill="#6B7280">
+    Use cases · Services
+  </text>
+
+  <line x1="28" y1="210" x2="332" y2="210" stroke="#E5E7EB"/>
+
+  <!-- Domain -->
+  <text x="28" y="246" font-family="monospace" font-size="16" fill="#111827">
+    📁 domain
+  </text>
+  <text x="28" y="268" font-family="monospace" font-size="13" fill="#6B7280">
+    Entities · Repositories
+  </text>
+
+  <line x1="28" y1="288" x2="332" y2="288" stroke="#E5E7EB"/>
+
+  <!-- Data -->
+  <text x="28" y="324" font-family="monospace" font-size="16" fill="#111827">
+    📁 data
+  </text>
+  <text x="28" y="346" font-family="monospace" font-size="13" fill="#6B7280">
+    Datasources · Models · Mappers
+  </text>
+
+  <!-- Footer (subtle) -->
+  <text
+    x="28"
+    y="392"
+    font-family="monospace"
+    font-size="11"
+    fill="#9CA3AF"
+  >
+    This is one architecture I like.
+  </text>
+  <text
+    x="28"
+    y="412"
+    font-family="monospace"
+    font-size="11"
+    fill="#9CA3AF"
+  >
+    It won’t end global warming. I’m still learning.
+  </text>
+</svg>
